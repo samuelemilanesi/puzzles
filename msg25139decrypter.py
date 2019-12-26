@@ -39,7 +39,8 @@ for k in range(0,len(cryptedMsg)):
 print("Codice con numeri al posto dei backslash:\n"+rot47DecryptedMsg)
 
 # noto che i caratteri del messaggio così decriptato sono quelli del linguaggio Brainfuck. 
-# devo trovare ancora quanti backslash corrispondono ad ogni cifra: un po' di try-and-catch sul convertitore textToBrainfuck
+# devo trovare ancora quanti backslash (che tradotti da ROT47 sono dash -) corrispondono ad ogni cifra: 
+# un po' di try-and-catch sul convertitore textToBrainfuck
 
 # trovo la corrispondenza e sostituisco
 numbers=["01", "04", "05", "08", "69", "70", "76", "83", "85", "88", "93", "96", "98"]
