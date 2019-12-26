@@ -54,3 +54,16 @@ fopn.write(bfCode)
 fopn.close()
 
 # runnare il codice brainfuck ad esempio su https://copy.sh/brainfuck/ per ottenere il messaggio
+
+"""
+Soluzione:
+
+'Scemo chi legge!
+Seriamente, che ti aspettavi?
+Il senso della vita? Beh, se non ci fossi ancora arrivato, la vita non ha un senso (come ogni cosa, del resto): fa solo schifo.
+E tu hai perso tempo.
+E quasi sicuramente fai schifo anche te.'
+
+(un messaggio che coglie la giuoia del Natale)
+"""
+
