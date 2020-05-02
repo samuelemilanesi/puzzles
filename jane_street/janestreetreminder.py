@@ -3,7 +3,7 @@ import time as time
 import telegram
 from bs4 import BeautifulSoup
 my_token = "//insert your token // look for BotFather on Telegram>>Create New Bot"
-ids = ["118758205", "126376934"]
+ids = ["000"]
 URL = "https://www.janestreet.com/puzzles/current-puzzle/"
 
 def send(msg, chats=ids, token=my_token):
